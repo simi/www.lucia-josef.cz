@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: url(zamek-white-trans.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-left: 128px;
+  margin-right: 128px;
+  min-width: 420px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  font-family: "Domine", serif;
+}
+
+section {
+  width: 450px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+article {
+  margin-top: 64px;
+}
+
+article#names {
+  font-size: 104px;
+  line-height: 70px;
+  font-weight: bold;
+}
+
+article#photo {
+  width: 330px;
+  height: 330px;
+  background-image: url(my-dva-square.jpg);
+  background-size: cover;
+  border: 5px solid black;
+}
+
+article#date-place {
+  font-size: 40px;
+  line-height: 52px;
+}
+
+aside {
+  margin-top: 64px;
+  margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: right;
+  width: 128px;
+}
+
+section.stripe {
+  flex: 1;
+  border-right: 5px solid black;
+  width: 120px;
+}
+
+section#ringis {
+  margin: 32px 0;
+  position: relative;
+  right: -40px;
+  width: 120px;
+  height: 120px;
+  background-image: url(ringis.svg);
+  background-size: cover;
+}
